@@ -25,17 +25,17 @@ export interface StructuredTrafficData {
 }
 
 function structureTrafficData(
-  data: TrafficDataInput[],
+  data: TrafficDataInput[]
 ): StructuredTrafficData[] {
   const currentTime = new Date(
-    Math.max(...data.map(item => new Date(item.timestamp).getTime())),
+    Math.max(...data.map((item) => new Date(item.timestamp).getTime()))
   );
   const oneDayAgo = new Date(currentTime.getTime() - 24 * 60 * 60 * 1000);
   const oneHourAgo = new Date(currentTime.getTime() - 60 * 60 * 1000);
 
   const cameraData: { [key: string]: StructuredTrafficData } = {};
 
-  data.forEach(item => {
+  data.forEach((item) => {
     const timestamp = new Date(item.timestamp);
     const cameraId = item.camera_id;
 
@@ -50,7 +50,7 @@ function structureTrafficData(
 
     const totalVehicles = item.lanes.reduce(
       (sum, lane) => sum + lane.total_vehicles,
-      0,
+      0
     );
 
     if (timestamp >= oneDayAgo) {
@@ -86,7 +86,7 @@ function App() {
         <APIProvider apiKey="AIzaSyDr-LVuWLuHDf58a2NBbfM5iuWb8WMqIyY">
           <CustomMap />
         </APIProvider>
-        <div className="w-screen">
+        <div className="w-screen text-white">
           <DataTable columns={columns} data={data} />
         </div>
       </main>
