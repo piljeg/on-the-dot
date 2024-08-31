@@ -1,0 +1,15 @@
+Timestamp,Camera ID,Lane,Total Vehicles,Traffic Intensity
+2024-08-31 10:45:20,984,Lane 1,6,Light
+2024-08-31 10:45:21,983,Lane 1,7,Light
+2024-08-31 10:45:42,984,Lane 1,10,Light
+2024-08-31 10:45:42,983,Lane 1,11,Moderate
+2024-08-31 10:46:03,984,Lane 1,10,Light
+2024-08-31 10:46:03,983,Lane 1,11,Moderate
+2024-08-31 10:46:24,984,Lane 1,10,Light
+2024-08-31 10:46:24,983,Lane 1,11,Moderate
+2024-08-31 10:46:45,984,Lane 1,10,Light
+2024-08-31 10:46:45,983,Lane 1,10,Light
+2024-08-31 10:47:06,984,Lane 1,10,Light
+2024-08-31 10:47:06,983,Lane 1,10,Light
+2024-08-31 10:52:51,984,Lane 1,9,Light
+2024-08-31 10:52:52,983,Lane 1,8,Light
