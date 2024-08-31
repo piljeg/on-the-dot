@@ -1,9 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { AdvancedMarker, useMap } from "@vis.gl/react-google-maps";
+import { AdvancedMarker, InfoWindow, useMap } from "@vis.gl/react-google-maps";
 import { Poi } from "../types.ts";
 import CameraIcon from "../assets/icons/camera-icon.svg";
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
-import type { Marker } from "@googlemaps/markerclusterer";
 import rawData from "../../../services/vehicle_detection/traffic_data.json";
 
 interface Lane {
@@ -29,61 +28,64 @@ const colors = {
   redStroke: "rgba(220, 38, 38,0.8)",
 };
 
-const PoiMarkers = (props: { pois: Poi[] }) => {
-  const [markers, setMarkers] = useState<{ [key: string]: Marker }>({});
-  const clusterer = useRef<MarkerClusterer | null>(null);
-
+const PoiMarkers: React.FC<{ pois: Poi[] }> = ({ pois }) => {
   const map = useMap();
-  const setMarkerRef = (marker: Marker | null, key: string) => {
-    if (marker && markers[key]) return;
-    if (!marker && !markers[key]) return;
-
-    setMarkers(prev => {
-      if (marker) {
-        return { ...prev, [key]: marker };
-      } else {
-        const newMarkers = { ...prev };
-        delete newMarkers[key];
-        return newMarkers;
-      }
-    });
-  };
-
-  const handleClick = useCallback(
-    (ev: google.maps.MapMouseEvent) => {
-      if (!map) return;
-      if (!ev.latLng) return;
-      console.log("marker clicked:", ev.latLng.toString());
-      map.panTo(ev.latLng);
-    },
-    [map],
-  );
+  const clusterer = useRef<MarkerClusterer | null>(null);
+  const [selectedPoi, setSelectedPoi] = useState<string | null>(null);
+  const markersRef = useRef<{
+    [key: string]: google.maps.marker.AdvancedMarkerElement;
+  }>({});
 
   useEffect(() => {
     if (!map) return;
     if (!clusterer.current) {
       clusterer.current = new MarkerClusterer({ map });
     }
+
+    return () => {
+      if (clusterer.current) {
+        clusterer.current.clearMarkers();
+        clusterer.current = null;
+      }
+    };
   }, [map]);
 
   useEffect(() => {
-    clusterer.current?.clearMarkers();
-    clusterer.current?.addMarkers(Object.values(markers));
-  }, [markers]);
+    if (clusterer.current) {
+      clusterer.current.clearMarkers();
+      clusterer.current.addMarkers(Object.values(markersRef.current));
+    }
+  }, [pois]);
+
+  const handleMarkerClick = useCallback((poiKey: string) => {
+    setSelectedPoi((prev) => (prev === poiKey ? null : poiKey));
+  }, []);
+
+  const setMarkerRef = useCallback(
+    (marker: google.maps.marker.AdvancedMarkerElement | null, key: string) => {
+      if (marker) {
+        markersRef.current[key] = marker;
+      } else {
+        delete markersRef.current[key];
+      }
+    },
+    []
+  );
+
+  console.log(selectedPoi);
 
   return (
     <>
-      {props.pois.map((poi: Poi) => {
-        const obj = trafficData.find(item => item.camera_id === poi.key);
+      {pois.map((poi) => {
+        const obj = trafficData.find((item) => item.camera_id === poi.key);
         const trafficIntensity = obj?.lanes[0].traffic_intensity;
 
         return (
           <AdvancedMarker
             key={poi.key}
             position={poi.location}
-            ref={marker => setMarkerRef(marker, poi.key)}
-            clickable={true}
-            onClick={handleClick}
+            ref={(marker) => setMarkerRef(marker, poi.key)}
+            onClick={() => handleMarkerClick(poi.key)}
           >
             <div className="w-[75px] h-[75px] flex justify-center items-center">
               <img className="w-10 h-10" src={CameraIcon} alt="camera icon" />
@@ -99,7 +101,7 @@ const PoiMarkers = (props: { pois: Poi[] }) => {
                       ? colors.orangeStroke
                       : colors.greenStroke
                   }
-                  stroke-width="4"
+                  strokeWidth="4"
                   fill={
                     trafficIntensity === "Heavy"
                       ? colors.redFill
@@ -113,6 +115,17 @@ const PoiMarkers = (props: { pois: Poi[] }) => {
           </AdvancedMarker>
         );
       })}
+      {selectedPoi && (
+        <InfoWindow
+          anchor={markersRef.current[selectedPoi]}
+          onCloseClick={() => setSelectedPoi(null)}
+        >
+          <img
+            src={`https://www.hak.hr/info/kamere/${selectedPoi}.jpg`}
+            className="h-60 w-60"
+          />
+        </InfoWindow>
+      )}
     </>
   );
 };
