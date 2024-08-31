@@ -1,7 +1,13 @@
-import { Map, MapCameraChangedEvent } from "@vis.gl/react-google-maps";
+import {
+  Map,
+  MapCameraChangedEvent,
+  useApiIsLoaded,
+  useMap,
+  useMapsLibrary,
+} from "@vis.gl/react-google-maps";
 import PoiMarkers from "./PoiMarkers";
 import { Poi } from "../types";
-import { useTrafficLayer } from "../hooks/useTrafficLayer";
+import { useEffect } from "react";
 
 const locations: Poi[] = [
   {
@@ -27,11 +33,20 @@ const locations: Poi[] = [
 ];
 
 function CustomMap() {
-  const isTrafficLoaded = useTrafficLayer();
+  const map = useMap();
+  const mapsLibrary = useMapsLibrary("maps");
+  const apiIsLoaded = useApiIsLoaded();
 
-  // if (!isTrafficLoaded) return <></>;
+  useEffect(() => {
+    console.log(apiIsLoaded);
+    if (mapsLibrary && map && apiIsLoaded) {
+      console.log("loaded");
+      const trafficLayer = new mapsLibrary.TrafficLayer();
+      trafficLayer.setMap(map);
+    }
+  }, [mapsLibrary, map, apiIsLoaded]);
 
-  return isTrafficLoaded ? (
+  return (
     <Map
       style={{ width: "100vw", height: "100vh" }}
       defaultZoom={13}
@@ -42,14 +57,12 @@ function CustomMap() {
           "camera changed:",
           ev.detail.center,
           "zoom:",
-          ev.detail.zoom,
+          ev.detail.zoom
         )
       }
     >
       <PoiMarkers pois={locations} />
     </Map>
-  ) : (
-    <></>
   );
 }
 
