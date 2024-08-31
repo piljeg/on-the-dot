@@ -1,6 +1,5 @@
 import {
   Map,
-  MapCameraChangedEvent,
   useApiIsLoaded,
   useMap,
   useMapsLibrary,
@@ -49,18 +48,11 @@ function CustomMap() {
 
   return (
     <Map
-      style={{ width: "100vw", height: "100vh" }}
+      style={{ width: "100vw", height: "80vh" }}
       defaultZoom={13}
       mapId="87b612fed2fb49d5"
       defaultCenter={{ lat: 45.815399, lng: 15.966568 }}
-      onCameraChanged={(ev: MapCameraChangedEvent) =>
-        console.log(
-          "camera changed:",
-          ev.detail.center,
-          "zoom:",
-          ev.detail.zoom,
-        )
-      }
+      disableDefaultUI={true}
     >
       <PoiMarkers pois={locations} />
     </Map>

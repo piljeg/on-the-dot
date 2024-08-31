@@ -1,31 +1,26 @@
 "use client";
 
+import { StructuredTrafficData } from "@/App";
 import { ColumnDef } from "@tanstack/react-table";
 
 // This type is used to define the shape of our data.
 // You can use a Zod schema here if you want.
-export type Payment = {
-  id: string;
-  amount: number;
-  status: "pending" | "processing" | "success" | "failed";
-  email: string;
-};
 
-export const columns: ColumnDef<Payment>[] = [
+export const columns: ColumnDef<StructuredTrafficData>[] = [
   {
     accessorKey: "id",
     header: "ID",
   },
   {
-    accessorKey: "location",
-    header: "Location",
+    accessorKey: "lastDay",
+    header: "No. vehicles (24hrs)",
   },
   {
-    accessorKey: "vehicles passed last 24hrs",
-    header: "Vehicles passed last 24hrs",
+    accessorKey: "lastHour",
+    header: "No. vehicles (1hr)",
   },
   {
-    accessorKey: "vehicles passed last 24hrs",
-    header: "Vehicles passed last 24hrs",
+    accessorKey: "intensity",
+    header: "Traffic intensity",
   },
 ];

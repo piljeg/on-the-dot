@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  /* overflow-x: hidden; */
+}
 
 /* jost-latin-wght-normal */
 @font-face {
@@ -40,6 +43,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #232323;
 }
 
 a {
@@ -114,7 +121,7 @@ button:focus-visible {
   box-sizing: border-box;
 }
 
-@layer base {
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 224 71.4% 4.1%;
@@ -168,8 +175,8 @@ button:focus-visible {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
-
+} */
+/* 
 @layer base {
   * {
     @apply border-border;
@@ -177,4 +184,22 @@ button:focus-visible {
   body {
     @apply bg-background text-foreground;
   }
+} */
+
+a[href^="http://maps.google.com/maps"]
+{
+  display: none !important;
+}
+a[href^="https://maps.google.com/maps"]
+{
+  display: none !important;
+}
+
+.gmnoprint a,
+.gmnoprint span,
+.gm-style-cc {
+  display: none;
+}
+.gmnoprint div {
+  background: none !important;
 }
