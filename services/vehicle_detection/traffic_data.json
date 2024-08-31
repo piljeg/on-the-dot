@@ -64,5 +64,2337 @@
         "traffic_intensity": "Moderate"
       }
     ]
+  },
+  {
+    "timestamp": "2024-08-31 14:12:50",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:12:50",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:12:50",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:12:51",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 13,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:11",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:11",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:12",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:12",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:32",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:33",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:33",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:33",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:53",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:54",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:54",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:13:54",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:15",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:15",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:15",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:15",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:36",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:36",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:36",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:36",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:57",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:57",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:57",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:14:57",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:15:18",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:15:18",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:15:18",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:15:18",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:15:39",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:15:39",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:15:39",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:15:39",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:00",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:00",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:00",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:01",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:21",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:21",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:21",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:22",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:42",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:42",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:43",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:16:43",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:03",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:03",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:04",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:04",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:24",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:24",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:25",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 1,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:25",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:45",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:45",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:46",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:17:46",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:06",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:07",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:07",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:07",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:28",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:28",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:28",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:29",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:49",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:49",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:49",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:18:50",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:10",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:11",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:11",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:11",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:32",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:32",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:32",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:32",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:53",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:53",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:53",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 1,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:19:54",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:14",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:15",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:15",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:15",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:36",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:36",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:36",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:36",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:57",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:57",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:57",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:20:57",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:21:18",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:21:18",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 5,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:21:18",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:21:18",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:21:39",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:21:39",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 5,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:21:39",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:21:39",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:00",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:00",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:00",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:00",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:21",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:21",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:21",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:21",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:42",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:42",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:42",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:22:43",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:03",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 13,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:03",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 5,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:03",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:04",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:24",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:24",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:24",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:25",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:45",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:45",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:46",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:23:46",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:06",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:06",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:07",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:07",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:27",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:28",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:28",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:28",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:48",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:49",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:49",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:24:49",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:09",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:10",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 5,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:10",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:10",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:32",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:32",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:33",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:33",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:53",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:53",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:54",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:25:54",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 13,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:14",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:14",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:15",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 1,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:15",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 14,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:35",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:36",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:37",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:37",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 14,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:58",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:58",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:59",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:26:59",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:27:19",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:27:19",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:27:20",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:27:20",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:27:40",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 15,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:27:40",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:27:41",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:27:41",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:01",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:02",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:02",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:02",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:22",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:23",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:23",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 1,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:23",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:43",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:44",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:44",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 1,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:28:44",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:04",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:05",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 6,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:05",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 1,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:05",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:25",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:26",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:26",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:26",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 4,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:46",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:47",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:47",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:29:47",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 4,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:07",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:08",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 5,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:08",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:08",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:29",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:29",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 2,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:29",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:29",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 13,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:50",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:50",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 2,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:50",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:30:50",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 13,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:31:11",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:31:11",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 9,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:31:11",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 0,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 14:31:11",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
   }
 ]
