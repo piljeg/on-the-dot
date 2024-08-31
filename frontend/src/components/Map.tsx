@@ -50,7 +50,7 @@ function CustomMap() {
     <Map
       style={{ width: "100vw", height: "100vh" }}
       defaultZoom={13}
-      mapId="febfb6882721eadd"
+      mapId="87b612fed2fb49d5"
       defaultCenter={{ lat: 45.815399, lng: 15.966568 }}
       onCameraChanged={(ev: MapCameraChangedEvent) =>
         console.log(
