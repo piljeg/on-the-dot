@@ -1,6 +1,3 @@
-import { APIProvider } from "@vis.gl/react-google-maps";
-import CustomMap from "./components/Map";
-
 import trafficData from "../../services/vehicle_detection/traffic_data.json";
 import { columns } from "./cameras/columns";
 import { DataTable } from "./cameras/data-table";
@@ -83,9 +80,6 @@ function App() {
         </div>
       </header>
       <main className="flex flex-col items-center w-[calc(screen-20px)] min-h-screen gap-10 pt-[30px] justify-center">
-        <APIProvider apiKey="AIzaSyDr-LVuWLuHDf58a2NBbfM5iuWb8WMqIyY">
-          <CustomMap />
-        </APIProvider>
         <div className="w-screen">
           <DataTable columns={columns} data={data} />
         </div>

@@ -50,7 +50,6 @@ function CustomMap() {
     <Map
       style={{ width: "100vw", height: "80vh" }}
       defaultZoom={13}
-      mapId="87b612fed2fb49d5"
       defaultCenter={{ lat: 45.815399, lng: 15.966568 }}
       disableDefaultUI={true}
     >
