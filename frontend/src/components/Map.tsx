@@ -8,34 +8,35 @@ import {
 import PoiMarkers from "./PoiMarkers";
 import { Poi } from "../types";
 import { useEffect } from "react";
+import rawCameraData from "../../../services/vehicle_detection/cameras.json";
 
-const locations: Poi[] = [
-  {
-    key: "lucko",
-    location: { lat: 45.762160830063344, lng: 15.896473847306092 },
-  },
-  {
-    key: "trnje",
-    location: { lat: 45.7948013349046, lng: 15.979294093511566 },
-  },
-  {
-    key: "ivanja reka",
-    location: { lat: 45.80013180911717, lng: 16.131190012246865 },
-  },
-  {
-    key: "sredisce",
-    location: { lat: 45.777784456109195, lng: 15.990552774054418 },
-  },
-  {
-    key: "selska cesta",
-    location: { lat: 45.7865242106891, lng: 15.951781913539993 },
-  },
-];
+interface CameraData {
+  cameras: {
+    cameraUrl: string;
+    lanes: number[][][];
+    location: {
+      lat: number;
+      lng: number;
+    };
+  }[];
+}
+
+function extractPoiData(data: CameraData): Poi[] {
+  return data.cameras.map(camera => {
+    const cameraId =
+      camera.cameraUrl.split("/").pop()?.split(".")[0] || "unknown";
+    return {
+      key: cameraId,
+      location: camera.location,
+    };
+  });
+}
 
 function CustomMap() {
   const map = useMap();
   const mapsLibrary = useMapsLibrary("maps");
   const apiIsLoaded = useApiIsLoaded();
+  const locations = extractPoiData(rawCameraData as CameraData);
 
   useEffect(() => {
     console.log(apiIsLoaded);
@@ -57,7 +58,7 @@ function CustomMap() {
           "camera changed:",
           ev.detail.center,
           "zoom:",
-          ev.detail.zoom
+          ev.detail.zoom,
         )
       }
     >
