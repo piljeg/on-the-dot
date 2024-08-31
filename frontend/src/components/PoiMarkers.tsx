@@ -1,9 +1,9 @@
+import { useCallback, useEffect, useRef, useState } from "react";
 import { AdvancedMarker, useMap } from "@vis.gl/react-google-maps";
 import { Poi } from "../types.ts";
 import CameraIcon from "../assets/icons/camera-icon.svg";
 import { MarkerClusterer } from "@googlemaps/markerclusterer";
 import type { Marker } from "@googlemaps/markerclusterer";
-import { useEffect, useRef, useState } from "react";
 
 const PoiMarkers = (props: { pois: Poi[] }) => {
   const [markers, setMarkers] = useState<{ [key: string]: Marker }>({});
@@ -26,6 +26,16 @@ const PoiMarkers = (props: { pois: Poi[] }) => {
     });
   };
 
+  const handleClick = useCallback(
+    (ev: google.maps.MapMouseEvent) => {
+      if (!map) return;
+      if (!ev.latLng) return;
+      console.log("marker clicked:", ev.latLng.toString());
+      map.panTo(ev.latLng);
+    },
+    [map],
+  );
+
   useEffect(() => {
     if (!map) return;
     if (!clusterer.current) {
@@ -45,6 +55,8 @@ const PoiMarkers = (props: { pois: Poi[] }) => {
           key={poi.key}
           position={poi.location}
           ref={marker => setMarkerRef(marker, poi.key)}
+          clickable={true}
+          onClick={handleClick}
         >
           <div>
             <img className="w-10 h-10" src={CameraIcon} alt="camera icon" />
