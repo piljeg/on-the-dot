@@ -1,5 +1,4 @@
 import { APIProvider, Map } from "@vis.gl/react-google-maps";
-import "./App.css";
 
 function App() {
   return (
