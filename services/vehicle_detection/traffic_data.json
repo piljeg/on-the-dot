@@ -1,0 +1,68 @@
+[
+  {
+    "timestamp": "2024-08-31 12:31:10",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 12,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 12:31:10",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 10,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 12:31:11",
+    "camera_id": "31",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 2,
+        "traffic_intensity": "Light"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 12:31:11",
+    "camera_id": "32",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 8,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 12:31:33",
+    "camera_id": "984",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 11,
+        "traffic_intensity": "Heavy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-08-31 12:31:33",
+    "camera_id": "983",
+    "lanes": [
+      {
+        "lane_number": "Lane 1",
+        "total_vehicles": 7,
+        "traffic_intensity": "Moderate"
+      }
+    ]
+  }
+]

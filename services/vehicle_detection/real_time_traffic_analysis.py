@@ -3,7 +3,6 @@ import numpy as np
 from ultralytics import YOLO
 import requests
 import json
-import csv
 from datetime import datetime
 import os
 import re
@@ -12,9 +11,9 @@ import re
 best_model = YOLO('models/best.pt')
 
 # Define thresholds for traffic intensity
-light_traffic_threshold = 10
-moderate_traffic_threshold = 15
-heavy_traffic_threshold = 20
+light_traffic_threshold = 5
+moderate_traffic_threshold = 10
+heavy_traffic_threshold = 15
 
 # Define font, scale, and colors for the annotations
 font = cv2.FONT_HERSHEY_SIMPLEX
@@ -22,8 +21,8 @@ font_scale = 0.5
 font_color = (255, 255, 255)    # White color for text
 background_color = (0, 0, 255)  # Red background for text
 
-# CSV file name
-csv_filename = 'traffic_data.csv'
+# JSON file name
+json_filename = 'traffic_data.json'
 
 def load_camera_data(file_path='cameras.json'):
     with open(file_path, 'r') as file:
@@ -56,17 +55,36 @@ def determine_traffic_intensity(total_vehicles):
     else:
         return "Very Heavy"
 
-def save_to_csv(camera_id, lane_data):
+def save_to_json(camera_id, lane_data):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
-    file_exists = os.path.isfile(csv_filename)
+    # Load existing data if file exists
+    if os.path.exists(json_filename):
+        with open(json_filename, 'r') as file:
+            data = json.load(file)
+    else:
+        data = []
     
-    with open(csv_filename, 'a', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        if not file_exists:
-            writer.writerow(['Timestamp', 'Camera ID', 'Lane', 'Total Vehicles', 'Traffic Intensity'])
-        for lane, (total_vehicles, intensity) in lane_data.items():
-            writer.writerow([timestamp, camera_id, lane, total_vehicles, intensity])
+    # Create new entry
+    new_entry = {
+        "timestamp": timestamp,
+        "camera_id": camera_id,
+        "lanes": [
+            {
+                "lane_number": lane_num,
+                "total_vehicles": total,
+                "traffic_intensity": intensity
+            }
+            for lane_num, (total, intensity) in lane_data.items()
+        ]
+    }
+    
+    # Append new entry
+    data.append(new_entry)
+    
+    # Save updated data
+    with open(json_filename, 'w') as file:
+        json.dump(data, file, indent=2)
 
 def process_camera(camera_data):
     frame = get_image_from_url(camera_data['cameraUrl'])
@@ -100,8 +118,8 @@ def process_camera(camera_data):
         cv2.putText(processed_frame, f'Lane {i+1}: {vehicles_in_lane} - {intensity}', 
                     (10, 30 + i*30), font, font_scale, font_color, 2, cv2.LINE_AA)
 
-    # Save data to CSV
-    save_to_csv(camera_data['id'], lane_data)
+    # Save data to JSON
+    save_to_json(camera_data['id'], lane_data)
 
     # Add camera ID annotation
     cv2.putText(processed_frame, f'Camera ID: {camera_data["id"]}', 
