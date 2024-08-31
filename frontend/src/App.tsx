@@ -1,4 +1,5 @@
 import { APIProvider, Map } from "@vis.gl/react-google-maps";
+import ControlPanel from "./components/ControlPanel";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         gestureHandling={"greedy"}
         disableDefaultUI={true}
       />
+      <ControlPanel />
     </APIProvider>
   );
 }
