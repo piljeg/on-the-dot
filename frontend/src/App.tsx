@@ -80,7 +80,10 @@ function App() {
         </div>
       </header>
       <main className="flex flex-col items-center w-[calc(screen-20px)] min-h-screen gap-10 pt-[30px] justify-center">
-        <div className="w-screen">
+        <APIProvider apiKey="AIzaSyDr-LVuWLuHDf58a2NBbfM5iuWb8WMqIyY">
+          <CustomMap />
+        </APIProvider>
+        <div className="w-screen text-white">
           <DataTable columns={columns} data={data} />
         </div>
       </main>
