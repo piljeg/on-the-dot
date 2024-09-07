@@ -1,6 +1,8 @@
+import { APIProvider } from "@vis.gl/react-google-maps";
 import trafficData from "../../services/vehicle_detection/traffic_data.json";
 import { columns } from "./cameras/columns";
 import { DataTable } from "./cameras/data-table";
+import CustomMap from "./components/Map";
 
 // Define the input type based on the structure of your JSON data
 interface TrafficDataInput {
@@ -80,7 +82,7 @@ function App() {
         </div>
       </header>
       <main className="flex flex-col items-center w-[calc(screen-20px)] min-h-screen gap-10 pt-[30px] justify-center">
-        <APIProvider apiKey="AIzaSyDr-LVuWLuHDf58a2NBbfM5iuWb8WMqIyY">
+        <APIProvider apiKey="">
           <CustomMap />
         </APIProvider>
         <div className="w-screen text-white">
